@@ -1,12 +1,11 @@
 ﻿#include "raylib.h"
 
-
 void DrawTriangle(Vector2 v1, Vector2 v2, Vector2 v3, int depth);
 
 int main(void) {
     const int screenWidth = 1280;
     const int screenHeight = 960;
-    const int depth = 8; //4-8 looks good
+    const int depth = 6; //4-8 looks good
 
     InitWindow(screenWidth, screenHeight, "Sierpinski Triangle");
 
