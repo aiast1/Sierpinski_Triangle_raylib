@@ -24,7 +24,7 @@
     <ProjectGuid>{056f93f5-c750-47cd-b478-9cb9b009201e}</ProjectGuid>
     <RootNamespace>testraylib</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>fractal</ProjectName>
+    <ProjectName>triangle_fractal_raylib</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
