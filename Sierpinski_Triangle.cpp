@@ -17,7 +17,7 @@ int main(void) {
 
     while (!WindowShouldClose()) {
 
-        if (IsKeyDown(KEY_UP)) zoom *= 1.01f;
+        if (IsKeyDown(KEY_UP)) zoom *= 1.01f;//
         if (IsKeyDown(KEY_DOWN)) zoom /= 1.01f;  
 
 
